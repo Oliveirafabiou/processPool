@@ -21,3 +21,7 @@ void WritingProcess::execute() {
 std::string WritingProcess::getType() const {
 	return "Writing";
 };
+
+std::string WritingProcess::getExpressionString() const {
+	return expr.toString();
+}

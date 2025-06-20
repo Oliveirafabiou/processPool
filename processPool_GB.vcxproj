@@ -130,6 +130,7 @@
     <ClCompile Include="process.cpp" />
     <ClCompile Include="process.h" />
     <ClCompile Include="reading_process.cpp" />
+    <ClCompile Include="sistema.cpp" />
     <ClCompile Include="writing_process.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -10,3 +10,7 @@ std::string ComputingProcess::getType() const {
 	return "Computing";
 };
 
+std::string ComputingProcess::getExpressionString() const {
+	return expr.toString();
+}
+

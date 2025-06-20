@@ -10,4 +10,5 @@ public:
 	WritingProcess(int pid, const std::string& exprStr);
 	void execute() override;
 	std::string getType() const override;
+	std::string getExpressionString() const;
 };
